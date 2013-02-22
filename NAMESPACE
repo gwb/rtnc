@@ -1,0 +1,2 @@
+export(tnc)
+useDynLib(rtnc)

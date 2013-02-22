@@ -1,0 +1,16 @@
+Package: rtnc
+Title: The Truncated Newton Constrained optimization algorithm
+Description: This packages is a wrapper around Jean-Sebastien Roy's
+    C implementation of the TNC algorithm for constrained optimization.
+Version: 0.1
+Authors@R: 
+Maintainer: Guillaume Basse <gw.basse@gmail.com>
+Author: Guillaume Basse <gw.basse@gmail.com>
+License: MIT
+Copyright: The code in /src/tnc.c and /src.tnc.h is Copyright (c) 2002-2005
+    Jean-Sebastien Roy. The original source can be obtained here:
+    http://js2007.free.fr/code/index.html#TNC. The original Fortran code is
+    from Stephen G. Nash (as mentioned in the references).
+Collate:
+    'tnc.R'
+    'rtnc.R'
